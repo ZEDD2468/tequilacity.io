@@ -1,0 +1,213 @@
+/*Principal*/
+#quote {
+    font-size:small;
+}
+
+
+.s-welcome{
+   background-image: url(./img/personal.jpg); 
+   background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    padding: 150px;
+}
+.s-welcome-overlay {
+   padding-top: 80px;
+   padding-bottom: 60px;
+}
+#quote{
+   font-family: 'Sansita Swashed', cursive;
+   color: aliceblue;
+   text-align: center;
+   font-size: 5em;
+}
+h2{
+   text-align: center;
+   font-family: 'Sansita Swashed', cursive;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   margin-bottom: 0px;
+   color: aliceblue;
+}
+
+/*Explore*/
+img{
+   height: 400px;
+   width: 600px;
+}
+.image-ac-1{
+   background-image:url(./img/p9.jpg);
+}
+.image-ac-2{
+   background-image:url(./img/p10.jpg);
+}
+.image-ac-3{
+   background-image:url(./img/p8.jpg);
+}
+.image-ac-1,.image-ac-2,.image-ac-3{
+   height: 250px;
+   width: 350px;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   transition: all 1s;
+}
+
+/*Accomodation*/ 
+.image-ac-1:hover{
+   transform: scale(1.1);
+}
+.image-ac-2:hover{
+   transform: scale(1.1);
+}
+.image-ac-3:hover{
+   transform: scale(1.1);
+}
+h3{
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: aliceblue;  
+}
+
+/*Gallery*/
+.image-gc-1,.image-gc-2,.image-gc-3,.image-gc-4,.image-gc-5,.image-gc-6,.image-gc-7,.image-gc-8,.image-gc-9{
+   height: 250px;
+   width: 350px;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   transition: all 1s;
+
+}
+.newline{
+   padding-top: 10px;
+ padding-bottom: 10px;
+}
+.image-gc-1{
+   background-image:url(./img/p11.jpg);
+}
+.image-gc-1:hover{
+    transform: scale(1.1);
+ }
+.image-gc-2{
+   background-image:url(./img/p12.jpg);
+}
+.image-gc-2:hover{
+    transform: scale(1.1);
+ }
+.image-gc-3{
+   background-image:url(./img/p14.jpg);
+}
+.image-gc-3:hover{
+    transform: scale(1.1);
+ }
+.image-gc-4{
+   background-image:url(./img/p15.jpg);
+}
+.image-gc-4:hover{
+    transform: scale(1.1);
+ }
+.image-gc-5{
+   background-image:url(./img/p16.jpg);
+}
+.image-gc-5:hover{
+    transform: scale(1.1);
+ }
+.image-gc-6{
+   background-image:url(./img/p17.jpg);
+}
+.image-gc-6:hover{
+    transform: scale(1.1);
+ }
+.image-gc-7{
+   background-image:url(./img/p11.jpg);
+}
+.image-gc-7:hover{
+    transform: scale(1.1);
+ }
+.image-gc-8{
+   background-image:url(./img/p18.jpg);
+}
+.image-gc-8:hover{
+    transform: scale(1.1);
+ }
+.image-gc-9{
+   background-image:url(./img/p19.jpg);
+}
+.image-gc-9:hover{
+   transform: scale(1.1);
+}
+
+
+/*location*/
+#map {
+   height: 400px;  /* The height is 400 pixels */
+   width: 100%;  /* The width is the width of the web page */
+  }
+.image-mc-1{
+   background-image:url(./img/location.png);
+   height: 650px;
+   width: 1850px;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+}
+
+/*Contact Us*/
+#copyright{
+   text-align: center;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+/*Section*/
+.s-a{
+   background-color: #2c0ce4;
+}
+.s-b{
+   background-color: #1e08a0;
+}
+
+p{
+    color:aliceblue;
+}
+
+
+/*button Information*/
+.btn-info {
+    background-color: aliceblue;
+    border-color: aliceblue;
+    color: #2c0ce4;
+}
+
+.btn-info:hover {
+    background-color: #440cee;
+    border-color: #440cee;
+}
+
+.btn-in {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    padding-bottom: 50px;
+}
